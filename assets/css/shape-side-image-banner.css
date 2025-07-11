@@ -1,0 +1,111 @@
+/* Side Image Blog Banner Styles */
+.blog-widget.side-image-banner {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  min-height: 180px;
+  background: transparent;
+  overflow: hidden;
+  position: relative;
+}
+.blog-widget.side-image-banner .side-banner-link {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  text-indent: -9999px;
+}
+.blog-widget.side-image-banner.bg-white {
+  background: #fff;
+}
+.blog-widget.side-image-banner.bg-dark {
+  background: #2A2D34;
+}
+.side-banner-text-conntainer{
+  width: 50%;
+  padding: 1.5rem 10rem 0 0 ;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  z-index: 1;
+}
+.blog-widget.side-image-banner .side-banner-text {
+  width: 85%;
+  text-align: right;
+}
+.blog-widget.side-image-banner .side-banner-subtitle {
+  color: #00bcff;
+  font-size: 2rem;  
+  margin-bottom: 0px;
+}
+.blog-widget.side-image-banner .side-banner-title {
+  font-size: 3.8rem;
+  font-weight: 700;
+  word-spacing: 5px;
+  margin-bottom: 0 !important;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: .3s  all ease-in-out;
+}
+.blog-widget.side-image-banner .side-banner-image {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.blog-widget.side-image-banner .side-banner-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+  aspect-ratio: 16 / 9;
+}
+
+.side-banner-title.text-white {
+  color: #fff !important;
+}
+
+ .side-banner-title.text-blue  {
+  color: #00BCFF !important;
+}
+
+ .side-banner-title.text-black {
+  color: #222 !important;
+}
+@media (max-width: 700px) {
+  .blog-widget.side-image-banner {
+    flex-direction: column-reverse;
+    min-height: 120px;
+  }
+  .blog-widget.side-image-banner .side-banner-text-conntainer {
+    width: 100%;
+    padding: 2rem;
+    align-items: flex-end;
+  }
+  .blog-widget.side-image-banner .side-banner-image {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+    order: 1;
+  }
+  .blog-widget.side-image-banner .side-banner-text {
+    width: 100%;
+    text-align: right;
+    padding: 0;
+  }
+  .blog-widget.side-image-banner .side-banner-subtitle {
+    font-size: 1.2rem;
+  }
+  .blog-widget.side-image-banner h2,
+  .blog-widget.side-image-banner .side-banner-title {
+    font-size: 1.7rem;
+  }
+} 

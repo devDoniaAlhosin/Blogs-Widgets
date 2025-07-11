@@ -1,0 +1,92 @@
+/* Default Blog News Widget Styles */
+.blog-widget.default-news-widget {
+  max-width: 800px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  direction: rtl;
+}
+.blog-widget.default-news-widget .news-category-label {
+  display: inline-block;
+  background: #00bcff;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 10px 5px 0 ;
+  margin-bottom: 15px;
+}
+.blog-widget.default-news-widget .news-short-title{
+  color: #23272f;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 5px;
+  position: relative;
+}
+.blog-widget.default-news-widget .news-short-title::after {
+  content: '';
+  display: block;
+  margin: -20px auto 0 auto;
+  width:30%;
+  height: 10px;
+  background: #00bcff;
+}
+.blog-widget.default-news-widget .news-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #23272f;
+  margin: 0 0 15px 0;
+  line-height: 1.2; 
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog-widget.default-news-widget .news-title a {
+  color: #23272f;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.blog-widget.default-news-widget .news-title a:hover {
+  color: #00bcff;
+}
+.blog-widget.default-news-widget .news-image {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+.blog-widget.default-news-widget .news-image img {
+  width: 100%;
+  height: 400px;        
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .blog-widget.default-news-widget {
+    width: 100%;
+    margin: 0 0 1.5em 0;
+    text-align: right;
+    padding: 1em 0.5em 0.5em 0.5em;
+    border-radius: 0;
+  }
+  .blog-widget.default-news-widget .news-category-label,  .blog-widget.default-news-widget .news-title{
+    margin-bottom: 10px;
+  }
+  .blog-widget.default-news-widget .news-title {
+    font-size: 2rem;
+    -webkit-line-clamp: 4;
+  }
+  .blog-widget.default-news-widget .news-image img {
+    height: 220px;
+  }
+}
+/* RTL Support */
+.rtl .blog-widget.default-news-widget,
+.blog-widget.default-news-widget.rtl {
+  direction: rtl;
+  text-align: right;
+} 

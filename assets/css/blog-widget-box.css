@@ -1,0 +1,94 @@
+/* Blog Widget Box Styles */
+.blog-widget.blog-widget-box {
+  position: relative;
+  background: #23272f;
+  overflow: hidden;
+  max-width: 800px;
+  margin:  auto;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.blog-widget.blog-widget-box .blog-box-image {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  display: block;
+}
+.blog-widget.blog-widget-box .blog-box-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.467);
+  padding: 1.2rem 1.5rem 1.5rem 1.5rem;
+  color: #fff;
+  box-sizing: border-box;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.blog-widget.blog-widget-box .blog-box-subtitle {
+    padding: 15px 10px 0 ;
+  background: #00bcff;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.blog-widget.blog-widget-box .blog-box-title {
+  font-size: 1.8rem;
+  width: 50%;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+  text-align: right;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog-widget.blog-widget-box .blog-box-title a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.blog-widget.blog-widget-box .blog-box-title a:hover {
+  color: #00bcff;
+}
+@media (max-width: 600px) {
+  .blog-widget.blog-widget-box {
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .blog-widget.blog-widget-box .blog-box-image {
+    min-height: 300px;
+  }
+  .blog-widget.blog-widget-box .blog-box-overlay {
+    padding: 0px !important;
+  }
+  .blog-widget.blog-widget-box .blog-box-title,
+  .blog-widget.blog-widget-box .blog-box-subtitle{
+    background-color: white;
+    margin: 0px !important;
+
+  }
+  .blog-widget.blog-widget-box .blog-box-title {
+    font-size: 1.7rem;
+    -webkit-line-clamp: 3;
+    line-height: 1.2;
+    padding: 10px 15px 15px 15px;
+    width: 100%;
+    color: #000;
+  }
+  .blog-widget.blog-widget-box .blog-box-title a{    color: #000;}
+  .blog-widget.blog-widget-box .blog-box-subtitle {
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #00bcff;
+  }
+} 

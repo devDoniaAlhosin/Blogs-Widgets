@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Kalligraaf Arabic';
+  src: url('../fonts/Kalligraaf Arabic.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kalligraaf Arabic';
+  src: url('../fonts/Kalligraaf Arabic Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kalligraaf Arabic';
+  src: url('../fonts/Kalligraaf Arabic Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kalligraaf Arabic';
+  src: url('../fonts/Kalligraaf Arabic Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kalligraaf Arabic';
+  src: url('../fonts/Kalligraaf Arabic Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.blog-widget,
+.blog-widget * {
+  font-family: 'Kalligraaf Arabic', Arial, sans-serif !important;
+} 

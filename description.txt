@@ -1,0 +1,23 @@
+Blogs Widgets Plugin
+====================
+
+A powerful, flexible WordPress plugin for creating advanced blog widgets and banners. Designed for seamless integration with Visual Composer (WPBakery), it offers multiple widget shapes, featured/sidebar logic, sticky post support, and custom Arabic font styling. Perfect for news, magazine, and content-rich sites needing beautiful, customizable blog displays.
+
+**Key Features:**
+- Multiple widget shapes: banner, box, sidebar, highlighted title, side image, news
+- Visual Composer integration with custom multi-select and dropdown options
+- Sidebar + featured post logic with robust fallback and sticky post support
+- Category/tag filtering, randomization, and design customization
+- Custom Arabic font (Kalligraaf Arabic) for all widget content
+- Responsive, modern CSS for all shapes
+
+**Why Use This Plugin?**
+- Easily highlight featured posts and curate sidebar content
+- Fine-tune widget appearance and post selection with intuitive VC controls
+- Ensure sticky posts are only used when you want them
+- Enjoy beautiful typography and responsive layouts out of the box
+
+**Ideal for:**
+- News, magazine, and blog sites
+- Arabic-language or multilingual publishers
+- Anyone needing advanced, flexible blog widgets in WordPress 
