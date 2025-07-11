@@ -70,6 +70,7 @@ You can use any widget as a shortcode in posts, pages, or templates. Here are th
   css="" 
   el_class=""]
 ```
+![Featured & Sidebar Blogs Widget](assets/images/sidebar-blogs-widget.png)
 - **post_ids_sidebar:** Comma-separated post IDs for sidebar (multi-select)
 - **post_id_featured:** Single post ID for featured area
 - **category:** Category slug to filter posts
@@ -90,6 +91,7 @@ You can use any widget as a shortcode in posts, pages, or templates. Here are th
   css="" 
   el_class=""]
 ```
+![Blog Box Widget](assets/images/blog-box.png)
 - **post_id:** Single post ID to display
 - **short_title:** Optional subtitle
 - **category:** Category slug
@@ -111,6 +113,7 @@ You can use any widget as a shortcode in posts, pages, or templates. Here are th
   css="" 
   el_class=""]
 ```
+![Default Blog News Widget](assets/images/defualt-blog-news-widget.png)
 - Same attributes as Blog Box
 
 ### 4. Featured Blog Widget (Highlighted Title)
@@ -125,6 +128,7 @@ You can use any widget as a shortcode in posts, pages, or templates. Here are th
   css="" 
   el_class=""]
 ```
+![Highlighted Title Widget](assets/images/highlighted_text.png)
 - Same attributes as Blog Box
 
 ### 5. Side Image Blog Banner
@@ -140,9 +144,28 @@ You can use any widget as a shortcode in posts, pages, or templates. Here are th
   subtitle="" 
   text_color="" ]
 ```
+![Side Image Blog Banner](assets/images/side-image-blog-banner.png)
 - **background:** "white" or "dark"
 - **subtitle:** "yes" or "no"
 - **text_color:** "text-white", "text-blue", or "text-black"
+
+### 6. Banner Blog (Shape-1)
+```
+[blog_widget_shape_1 
+  post_id="1" 
+  short_title="Subtitle" 
+  category="news" 
+  random_from_category="no" 
+  tag="" 
+  sticky_only="no" ]
+```
+![Banner Blog Widget](assets/images/Banner-blog.png)
+- **post_id:** Single post ID to display
+- **short_title:** Optional subtitle
+- **category:** Category slug
+- **random_from_category:** "yes" or "no"
+- **tag:** Tag slug
+- **sticky_only:** "yes" or "no" (show only sticky posts)
 
 **Note:**
 - All shortcodes accept `css` and `el_class` for custom styling.
